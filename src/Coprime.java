@@ -25,8 +25,8 @@ public class Coprime {
             for(int j=i+1; j<n; j++){
                 int a=arr[i];
                 int b=arr[j];
-                boolean flag=isCoPrime(a,b);
-                if(flag==true) count++;
+                int flag=GCD(a,b);
+                if(flag==1) count++;
             }
         }
         System.out.print(count);
