@@ -60,3 +60,6 @@ public class LinearSearch {
 
 }
 
+//TC :
+//BEST CASE: O(1)
+//WORST CASE: O(N)
